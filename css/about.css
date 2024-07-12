@@ -203,7 +203,7 @@ progress {
 
 @media only screen and (max-width: 400px){
     #about-section {
-        height: calc(195vh);
+        height: calc(165vh);
     }
     .educ-container {
         width: 250px;
