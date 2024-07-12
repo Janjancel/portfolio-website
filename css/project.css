@@ -1,0 +1,143 @@
+#project-section {
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#project-top {
+    padding: 50px;
+    width: 100%;
+    height: calc(15vh);
+    /* background-color: blue; */
+
+}
+
+
+#project-bottom {
+    height:100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#project-bottom article {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #3a4750;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+article img{
+    position: relative;
+    height: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article #quote {
+    height: 70%;
+    /* margin-bottom: 60px; */
+}
+article label div{
+    align-items: center;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* padding-top: 25px; */
+    height: 120px;
+    background-color: #303841;
+    color: #878787;
+    border-radius: 0 0  20px 20px;
+}
+
+article label div p {
+    margin-bottom: 10px;
+}
+
+#project-bottom article div {
+    display: flex;
+    flex-direction: column;
+}
+
+#project-bottom article div button a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: 300;
+    font-size: 8px;
+}
+
+
+
+#project-button {
+    display:flex;
+}
+
+#project-bottom #display-left,
+#project-bottom #display-right {
+    height: 70px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 50px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  
+    #project-bottom {
+        padding-top: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* #project-bottom article {
+        width: 200px;
+        height: 300px;
+    } */
+    article #quote {
+        margin-top: 30px;
+        height: 50%;
+        margin-bottom: 50px;
+    }
+    #project-bottom article:nth-child(1) {
+        margin-top: 0;
+    }
+
+
+ @media (max-width: 440px) {
+    /* #project-section {
+        height: 195vh;
+    } */
+    #project-top {
+        padding: 20px;
+    }
+    #project-bottom {
+        display: flex;
+
+    }
+    #project-bottom article {
+        margin-bottom: 50px;
+    }
+ }}
+
+ @media (max-width: 300px) {
+    #project-section {
+        height: calc(110vh);
+    }
+
+    #project-bottom article {
+        width: 200px;
+    }
+ }
+
+       

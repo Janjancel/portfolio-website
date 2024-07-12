@@ -1,0 +1,123 @@
+@import url(@fortawesome/free-solid-svg-icons);
+#service {    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+
+}
+
+#service-top {
+    padding: 50px;
+    width: 100%;
+    height: calc(15vh);
+    /* background-color: red; */
+}
+
+#service-bottom {
+    justify-content: center;
+    /* background-color: #fca311; */
+    display: flex;
+    height: calc(83vh);
+    padding-top: 100px;
+}
+
+#service-bottom article {
+    background-color: #3a4750;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 400px;
+    margin: 20px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+#service-bottom article .top {
+    position: relative;
+}
+
+#service-bottom .top {
+    height: 70px;
+    border-radius: 20px 20px 0 0;
+    background-color:#303841;
+}
+
+#service-top p {
+    color: #878787;
+}
+
+#service-bottom .top h1 {
+    color: #dbd3d3;
+    padding-top: calc(2.5vh);
+    text-transform: capitalize;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+#service-bottom .bottom {
+    padding: 20px;
+}
+
+#service-bottom .bottom span{
+    font-size: 100px;
+    color: #14213d;
+
+}
+
+#service-bottom .bottom span img {
+    height: 100px;
+}
+
+#service-bottom .bottom {
+    color: #878787;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #service-section {
+        height: calc(130vh);
+        flex-direction: column;
+    }
+    #service-top {
+        padding: 20px;
+    }
+    #service-bottom article .top {
+        height: 50px;
+    }
+
+    #service-bottom {
+        height: calc(113vh);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        /* padding-top: 200px; */
+    }
+
+    #service-bottom article {
+        width: 200px;
+        height: 50vh;
+    }
+    #service-bottom .bottom {
+        padding: 10px;
+    }
+
+    #service-bottom .bottom span {
+        font-size: 50px;
+    }
+    #service-bottom .bottom p {
+        font-size: 7px;
+    }
+    
+}
+
+@media only screen and (max-width: 300px) {
+    #service-section {
+        height: calc(170vh);
+        flex-direction: column;
+    }
+    #service-bottom {
+        height: calc(153vh);
+
+    }
+}
